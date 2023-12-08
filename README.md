@@ -4,6 +4,7 @@ We publish our demo [here](https://codeocean.com/capsule/8326543/tree).
 ## II. Run on dataset mentioned in our paper
 ### 1) Data preparation
 1. Graph file format
+   
 We store our graph in *.gr
 ```c++
 n m       // #nodes #edges
@@ -14,6 +15,7 @@ ux vy wm
 ``` 
 
 2. Construct index
+   
 We offer the modified index construction source code in folder "/tools".
 Execute the following bash scipt to compile the executable binary. 
 ```bash
@@ -31,6 +33,7 @@ Note: we set the bit parallel as 64
 ```
 
 3. Generate queryfile
+   
 The random generator is also offered in folder "/tools".
 Execute the following bash scipt to compile the executable binary. 
 ```bash
@@ -43,6 +46,7 @@ Run the following commmand to generate a set of 50 queries in "example_9.Q"
 ```
 
 4. Batch scripts and config files
+   
 We offer some batch scipt template easy to be modified to construct indices and query files.
 We offer a "CMakeLists.txt" and "settings.json" if to debug in VSCode. Please comment "add_definitions(-DRECOVER_MSPATREE)" to turn off the retrieval function.
 Please find the templates and config files in folder "/tools"
