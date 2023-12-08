@@ -1,8 +1,8 @@
 # Intro to MSPA
-## Run a demo
+## I. Run a demo
 We publish our demo [here](https://codeocean.com/capsule/8326543/tree).
-## Run on dataset mentioned in our paper
-### Data preparation
+## II. Run on dataset mentioned in our paper
+### 1) Data preparation
 1. Graph file format
 We store our graph in *.gr
 ```c++
@@ -48,7 +48,7 @@ We offer a "CMakeLists.txt" and "settings.json" if to debug in VSCode. Please co
 Please find the templates and config files in folder "/tools"
 
 
-## Folders
+## 2) Folders
 "-" means the rank of the folder.
 ```bash
 -rootFolder
@@ -80,12 +80,12 @@ We put the results generated in folder "TKDE_MSPA_DATA/result/".
 * tools
 We put some scipts and config files in the folder "tools/".
 
-## How to run
+## 3) How to run
 For each graph, run scripts for each algorithm.
 Take NY for example.
 Run "run_NY_advDP.sh" for advDP, |S| from 5 to 8, k=5.
 Run "run_NY_apx_cand.sh" for Sim, SimApp, bet, mst, pcp, |S| from 5 to 8, k=5.
 Run "run_NY_apx_cand_1e2_3.sh" for Sim, SimApp, bet, mst, pcp, |S| = 100, k=100 and |S| = 1000, k=1000.
 
-## Contact
+## 4) Contact
 Feel free to contact me at [wzrbill@e.gzhu.edu.cn](mailto:wzrbill@e.gzhu.edu.cn)
