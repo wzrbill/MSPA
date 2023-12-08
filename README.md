@@ -69,12 +69,15 @@ Please find the templates and config files in folder "/tools"
   --CMakeLists.txt
 ```
 * script
+  
 We put the scipts to run all our algorithms for graph example.gr in the folder "script/example/".
 
 * src
+  
 We put the source code of our project in src. And compile the project with "CMakeLists.txt".
 
 * TKDE_MSPA_DATA
+  
 We put "example.gr" and "example.index" in the folder "TKDE_MSPA_DATA/graphs/example-d/".
 We put the candidates selected in folder "TKDE_MSPA_DATA/candidates/".
 We put the logs generated in folder "TKDE_MSPA_DATA/log/".
@@ -82,9 +85,11 @@ We put the queryfile generated in folder "TKDE_MSPA_DATA/log/".
 We put the results generated in folder "TKDE_MSPA_DATA/result/".
 
 * tools
+  
 We put some scipts and config files in the folder "tools/".
 
 ## 3) How to run
+
 For each graph, run scripts for each algorithm.
 Take NY for example.
 Run "run_NY_advDP.sh" for advDP, |S| from 5 to 8, k=5.
@@ -92,4 +97,5 @@ Run "run_NY_apx_cand.sh" for Sim, SimApp, bet, mst, pcp, |S| from 5 to 8, k=5.
 Run "run_NY_apx_cand_1e2_3.sh" for Sim, SimApp, bet, mst, pcp, |S| = 100, k=100 and |S| = 1000, k=1000.
 
 ## 4) Contact
+
 Feel free to contact me at [wzrbill@e.gzhu.edu.cn](mailto:wzrbill@e.gzhu.edu.cn)
