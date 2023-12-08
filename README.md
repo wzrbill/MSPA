@@ -48,7 +48,9 @@ Run the following commmand to generate a set of 50 queries in "example_9.Q"
 4. Batch scripts and config files
    
 We offer some batch scipt template easy to be modified to construct indices and query files.
+
 We offer a "CMakeLists.txt" and "settings.json" if to debug in VSCode. Please comment "add_definitions(-DRECOVER_MSPATREE)" to turn off the retrieval function.
+
 Please find the templates and config files in folder "/tools"
 
 
@@ -79,9 +81,13 @@ We put the source code of our project in src. And compile the project with "CMak
 * TKDE_MSPA_DATA
   
 We put "example.gr" and "example.index" in the folder "TKDE_MSPA_DATA/graphs/example-d/".
+
 We put the candidates selected in folder "TKDE_MSPA_DATA/candidates/".
+
 We put the logs generated in folder "TKDE_MSPA_DATA/log/".
+
 We put the queryfile generated in folder "TKDE_MSPA_DATA/log/".
+
 We put the results generated in folder "TKDE_MSPA_DATA/result/".
 
 * tools
@@ -91,10 +97,13 @@ We put some scipts and config files in the folder "tools/".
 ## 3) How to run
 
 For each graph, run scripts for each algorithm.
-Take NY for example.
-Run "run_NY_advDP.sh" for advDP, |S| from 5 to 8, k=5.
-Run "run_NY_apx_cand.sh" for Sim, SimApp, bet, mst, pcp, |S| from 5 to 8, k=5.
-Run "run_NY_apx_cand_1e2_3.sh" for Sim, SimApp, bet, mst, pcp, |S| = 100, k=100 and |S| = 1000, k=1000.
+Take NY for example:
+* Run "run_NY_advDP.sh" for advDP, |S| from 5 to 8, k=5.
+  
+* Run "run_NY_apx_cand.sh" for Sim, SimApp, bet, mst, pcp, |S| from 5 to 8, k=5.
+  
+* Run "run_NY_apx_cand_1e2_3.sh" for Sim, SimApp, bet, mst, pcp, |S| = 100, k=100 and |S| = 1000, k=1000.
+  
 
 ## 4) Contact
 
