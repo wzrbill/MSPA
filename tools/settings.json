@@ -1,0 +1,58 @@
+{ 
+    //Please input the path of your own root folder
+    //e.g.: /home/wzrbill/rootFolder
+    "cmake.sourceDirectory": "",
+    "cmake.debugConfig": {
+        "args": [
+            //BnB
+            "TKDE_MSPA_DATA/graphs/example-d/example-d.index", 
+            "TKDE_MSPA_DATA/graphs/example-d/example-d_new.gr",
+            "6",//#src+sink
+            "TKDE_MSPA_DATA/queryfile/example.Q",
+            "3",//budget
+            "1",//algo BnB
+            "TKDE_MSPA_DATA/candidates/example.cand",
+            "TKDE_MSPA_DATA/result/example.Res",
+
+            //BasicDP
+            // "TKDE_MSPA_DATA/graphs/example-d/example-d.index", 
+            // "TKDE_MSPA_DATA/graphs/example-d/example-d_new.gr",
+            // "6",//#src+sink
+            // "TKDE_MSPA_DATA/queryfile/example.Q",
+            // "3",//budget
+            // "2",//algo BasicDP
+            // "TKDE_MSPA_DATA/candidates/example.cand",
+            // "TKDE_MSPA_DATA/result/example.Res",
+
+            //AdvDP
+            // "TKDE_MSPA_DATA/graphs/example-d/example-d.index", 
+            // "TKDE_MSPA_DATA/graphs/example-d/example-d_new.gr",
+            // "6",//#src+sink
+            // "TKDE_MSPA_DATA/queryfile/example.Q",
+            // "3",//budget
+            // "3",//algo AdvDP
+            // "TKDE_MSPA_DATA/candidates/example.cand",
+            // "TKDE_MSPA_DATA/result/example.Res",
+
+            //bfs
+            // "TKDE_MSPA_DATA/graphs/example-d/example-d.index", 
+            // "TKDE_MSPA_DATA/graphs/example-d/example-d_new.gr",
+            // "6",//#src+sink
+            // "TKDE_MSPA_DATA/queryfile/example.Q",
+            // "3",//budget
+            // "5",//algo bfs/dfs
+            // "TKDE_MSPA_DATA/candidates/bfs.cand", //substitute bfs with dfs
+            // "TKDE_MSPA_DATA/result/example.Res",
+
+            //bet/mst/pcp
+            // "TKDE_MSPA_DATA/graphs/example-d/example-d.index", 
+            // "TKDE_MSPA_DATA/graphs/example-d/example-d_new.gr",
+            // "6",//#src+sink
+            // "TKDE_MSPA_DATA/queryfile/example.Q",
+            // "3",//budget
+            // "6",//algo bet/mst/pcp
+            // "TKDE_MSPA_DATA/candidates/bet.cand", //substitude bet with mst or pcp
+            // "TKDE_MSPA_DATA/result/example.Res",
+        ]
+    }
+}

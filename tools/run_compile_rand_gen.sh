@@ -1,0 +1,1 @@
+g++ randGen.cpp -o rdgen

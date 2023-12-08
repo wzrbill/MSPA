@@ -1,0 +1,5 @@
+
+nohup ./MSPA.out TKDE_MSPA_DATA/graphs/Email/Email.index TKDE_MSPA_DATA/graphs/Email/Email.gr 9  TKDE_MSPA_DATA/queryfile/Email_9.Q  5        5     TKDE_MSPA_DATA/candidates/dfs.cand TKDE_MSPA_DATA/result/Email_9_dfs.Res > TKDE_MSPA_DATA/log/Email_9_5_dfs.log &
+nohup ./MSPA.out TKDE_MSPA_DATA/graphs/Email/Email.index TKDE_MSPA_DATA/graphs/Email/Email.gr 8  TKDE_MSPA_DATA/queryfile/Email_8.Q  5        5     TKDE_MSPA_DATA/candidates/dfs.cand TKDE_MSPA_DATA/result/Email_8_dfs.Res > TKDE_MSPA_DATA/log/Email_8_5_dfs.log &
+nohup ./MSPA.out TKDE_MSPA_DATA/graphs/Email/Email.index TKDE_MSPA_DATA/graphs/Email/Email.gr 7  TKDE_MSPA_DATA/queryfile/Email_7.Q  5        5     TKDE_MSPA_DATA/candidates/dfs.cand TKDE_MSPA_DATA/result/Email_7_dfs.Res > TKDE_MSPA_DATA/log/Email_7_5_dfs.log &
+nohup ./MSPA.out TKDE_MSPA_DATA/graphs/Email/Email.index TKDE_MSPA_DATA/graphs/Email/Email.gr 6  TKDE_MSPA_DATA/queryfile/Email_6.Q  5        5     TKDE_MSPA_DATA/candidates/dfs.cand TKDE_MSPA_DATA/result/Email_6_dfs.Res > TKDE_MSPA_DATA/log/Email_6_5_dfs.log &
