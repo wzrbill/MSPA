@@ -1,6 +1,6 @@
 # Intro to MSPA
 ## I. Run a demo
-We publish our demo [here](https://codeocean.com/capsule/8326543/tree).
+We published our demo code [here](https://codeocean.com/capsule/8326543/tree).
 ## II. Run on dataset mentioned in our paper
 ### 1) Data preparation
 1. Graph file format
@@ -8,10 +8,10 @@ We publish our demo [here](https://codeocean.com/capsule/8326543/tree).
 We store our graph in *.gr
 ```c++
 n m       // #nodes #edges
-u1 v1 w1  // node id starts from 1 
-u2 v2 w2  // in social graph w is 1
+u_1 v_1 w_1  // node id starts from 1 
+u_2 v_2 w_2  // in social graph w is 1
 ...
-ux vy wm
+u_n v_n w_n
 ``` 
 
 2. Construct index
