@@ -108,3 +108,8 @@ Take NY for example:
 ## 4) Contact
 
 Feel free to contact me at [wzrbill@e.gzhu.edu.cn](mailto:wzrbill@e.gzhu.edu.cn)
+
+## 5) P.S.
+
+A more clear version of source code is presented in [filename]_ver2.[extensionname]
+
